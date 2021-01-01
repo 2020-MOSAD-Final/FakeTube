@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A389E6FF259B200300F0481D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A389E6FE259B200300F0481D /* ViewController.m */; };
+		A3949D5A2599F47D0091090F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3949D592599F47D0091090F /* AppDelegate.m */; };
+		A3949D632599F47D0091090F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3949D612599F47D0091090F /* Main.storyboard */; };
+		A3949D652599F47F0091090F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3949D642599F47F0091090F /* Assets.xcassets */; };
+		A3949D682599F47F0091090F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3949D662599F47F0091090F /* LaunchScreen.storyboard */; };
+		A3949D6B2599F47F0091090F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3949D6A2599F47F0091090F /* main.m */; };
+		A3949D81259A01020091090F /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3949D782599F86B0091090F /* HomeController.m */; };
+		A3949D82259A01190091090F /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3949D7B2599FB780091090F /* ProfileController.m */; };
+		A3949D83259A01200091090F /* AuthorizationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3949D7E2599FCCC0091090F /* AuthorizationController.m */; };
+		FBC5D1AAB06D725B8F57C42A /* Pods_FakeTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C98F65BE7EAA07D4E8B239 /* Pods_FakeTube.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183B9F18152E6F3B26FCB037 /* Pods-FakeTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeTube.debug.xcconfig"; path = "Target Support Files/Pods-FakeTube/Pods-FakeTube.debug.xcconfig"; sourceTree = "<group>"; };
+		A389E6FD259B1F4E00F0481D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A389E6FE259B200300F0481D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A389E709259DB80600F0481D /* UserView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserView.h; sourceTree = "<group>"; };
+		A3949D552599F47D0091090F /* FakeTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3949D582599F47D0091090F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3949D592599F47D0091090F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3949D622599F47D0091090F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3949D642599F47F0091090F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3949D672599F47F0091090F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3949D692599F47F0091090F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3949D6A2599F47F0091090F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3949D752599F7920091090F /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		A3949D762599F7B70091090F /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		A3949D772599F85B0091090F /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		A3949D782599F86B0091090F /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		A3949D7A2599FB690091090F /* ProfileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileController.h; sourceTree = "<group>"; };
+		A3949D7B2599FB780091090F /* ProfileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileController.m; sourceTree = "<group>"; };
+		A3949D7D2599FCBC0091090F /* AuthorizationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthorizationController.h; sourceTree = "<group>"; };
+		A3949D7E2599FCCC0091090F /* AuthorizationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthorizationController.m; sourceTree = "<group>"; };
+		A3949D85259A01C80091090F /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		A3949D86259AF7A80091090F /* FakeNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FakeNetworking.h; sourceTree = "<group>"; };
+		BAD94FD410C43E6391D20066 /* Pods-FakeTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeTube.release.xcconfig"; path = "Target Support Files/Pods-FakeTube/Pods-FakeTube.release.xcconfig"; sourceTree = "<group>"; };
+		F8C98F65BE7EAA07D4E8B239 /* Pods_FakeTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FakeTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3949D522599F47D0091090F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC5D1AAB06D725B8F57C42A /* Pods_FakeTube.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B674E1D097E6B6803E92B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C98F65BE7EAA07D4E8B239 /* Pods_FakeTube.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A88AD1F2B72BFAF5C1E361C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				183B9F18152E6F3B26FCB037 /* Pods-FakeTube.debug.xcconfig */,
+				BAD94FD410C43E6391D20066 /* Pods-FakeTube.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A389E705259DACC600F0481D /* User */ = {
+			isa = PBXGroup;
+			children = (
+				A389E709259DB80600F0481D /* UserView.h */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		A3949D4C2599F47D0091090F = {
+			isa = PBXGroup;
+			children = (
+				A3949D572599F47D0091090F /* FakeTube */,
+				A3949D562599F47D0091090F /* Products */,
+				6A88AD1F2B72BFAF5C1E361C /* Pods */,
+				2B674E1D097E6B6803E92B3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3949D562599F47D0091090F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3949D552599F47D0091090F /* FakeTube.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3949D572599F47D0091090F /* FakeTube */ = {
+			isa = PBXGroup;
+			children = (
+				A3949D742599F6B80091090F /* Controller */,
+				A3949D732599F6AF0091090F /* View */,
+				A3949D722599F6A90091090F /* Model */,
+				A3949D582599F47D0091090F /* AppDelegate.h */,
+				A3949D592599F47D0091090F /* AppDelegate.m */,
+				A3949D612599F47D0091090F /* Main.storyboard */,
+				A3949D642599F47F0091090F /* Assets.xcassets */,
+				A3949D662599F47F0091090F /* LaunchScreen.storyboard */,
+				A3949D692599F47F0091090F /* Info.plist */,
+				A3949D6A2599F47F0091090F /* main.m */,
+				A3949D85259A01C80091090F /* Helper.h */,
+				A3949D86259AF7A80091090F /* FakeNetworking.h */,
+			);
+			path = FakeTube;
+			sourceTree = "<group>";
+		};
+		A3949D722599F6A90091090F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3949D752599F7920091090F /* User.h */,
+				A3949D762599F7B70091090F /* Video.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A3949D732599F6AF0091090F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A389E705259DACC600F0481D /* User */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A3949D742599F6B80091090F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A3949D802599FD1F0091090F /* User */,
+				A389E6FD259B1F4E00F0481D /* ViewController.h */,
+				A389E6FE259B200300F0481D /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A3949D802599FD1F0091090F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				A3949D7D2599FCBC0091090F /* AuthorizationController.h */,
+				A3949D7E2599FCCC0091090F /* AuthorizationController.m */,
+				A3949D7A2599FB690091090F /* ProfileController.h */,
+				A3949D7B2599FB780091090F /* ProfileController.m */,
+				A3949D772599F85B0091090F /* HomeController.h */,
+				A3949D782599F86B0091090F /* HomeController.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3949D542599F47D0091090F /* FakeTube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3949D6E2599F47F0091090F /* Build configuration list for PBXNativeTarget "FakeTube" */;
+			buildPhases = (
+				83F0FFC30AB2D134286C3B8D /* [CP] Check Pods Manifest.lock */,
+				A3949D512599F47D0091090F /* Sources */,
+				A3949D522599F47D0091090F /* Frameworks */,
+				A3949D532599F47D0091090F /* Resources */,
+				CBCFD0D1C9DE76753A15C62A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FakeTube;
+			productName = FakeTube;
+			productReference = A3949D552599F47D0091090F /* FakeTube.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3949D4D2599F47D0091090F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = cc;
+				TargetAttributes = {
+					A3949D542599F47D0091090F = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = A3949D502599F47D0091090F /* Build configuration list for PBXProject "FakeTube" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3949D4C2599F47D0091090F;
+			productRefGroup = A3949D562599F47D0091090F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3949D542599F47D0091090F /* FakeTube */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3949D532599F47D0091090F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3949D682599F47F0091090F /* LaunchScreen.storyboard in Resources */,
+				A3949D652599F47F0091090F /* Assets.xcassets in Resources */,
+				A3949D632599F47D0091090F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83F0FFC30AB2D134286C3B8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FakeTube-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBCFD0D1C9DE76753A15C62A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FakeTube/Pods-FakeTube-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FakeTube/Pods-FakeTube-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FakeTube/Pods-FakeTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3949D512599F47D0091090F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A389E6FF259B200300F0481D /* ViewController.m in Sources */,
+				A3949D83259A01200091090F /* AuthorizationController.m in Sources */,
+				A3949D5A2599F47D0091090F /* AppDelegate.m in Sources */,
+				A3949D81259A01020091090F /* HomeController.m in Sources */,
+				A3949D6B2599F47F0091090F /* main.m in Sources */,
+				A3949D82259A01190091090F /* ProfileController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3949D612599F47D0091090F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3949D622599F47D0091090F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3949D662599F47F0091090F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3949D672599F47F0091090F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3949D6C2599F47F0091090F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3949D6D2599F47F0091090F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3949D6F2599F47F0091090F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183B9F18152E6F3B26FCB037 /* Pods-FakeTube.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FakeTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirce.FakeTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3949D702599F47F0091090F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD94FD410C43E6391D20066 /* Pods-FakeTube.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FakeTube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dirce.FakeTube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3949D502599F47D0091090F /* Build configuration list for PBXProject "FakeTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3949D6C2599F47F0091090F /* Debug */,
+				A3949D6D2599F47F0091090F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3949D6E2599F47F0091090F /* Build configuration list for PBXNativeTarget "FakeTube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3949D6F2599F47F0091090F /* Debug */,
+				A3949D702599F47F0091090F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3949D4D2599F47D0091090F /* Project object */;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2D488456-954B-4336-829F-E66E01712351"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2BF472E4-6AF0-482E-A379-E51A5B185E31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FakeTube/Controller/User/AuthorizationController.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "-login"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2BF472E4-6AF0-482E-A379-E51A5B185E31 - b6678f821a5fad30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__32-[AuthorizationController login]_block_invoke"
+                  moduleName = "FakeTube"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenlianzhang/Desktop/tree/iosCode/final/FakeTube/FakeTube/Controller/User/AuthorizationController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "238">
+               </Location>
+               <Location
+                  uuid = "2BF472E4-6AF0-482E-A379-E51A5B185E31 - 80dff9ae1dd82063"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_e8_32s"
+                  moduleName = "FakeTube"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chenlianzhang/Desktop/tree/iosCode/final/FakeTube/FakeTube/Controller/User/AuthorizationController.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
